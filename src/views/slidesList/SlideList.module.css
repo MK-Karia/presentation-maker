@@ -1,0 +1,20 @@
+.slideList {
+    border-right: 1px solid #4e4e4e;
+    overflow: auto;
+}
+
+
+.item {
+    margin: 10px 10px 10px 7px;
+    border-radius: 10px;
+    border: 3px solid transparent;
+}
+
+.slideNumber {
+    font-size: 11px;
+    margin: 10px 3px 0 10px;
+}
+
+.itemContainer {
+    display: flex;
+}

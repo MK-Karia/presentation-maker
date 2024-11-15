@@ -1,0 +1,17 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+:root {
+    --topPanelHeight: 132px;
+}
+
+.container {
+    display: flex;
+    background-color: #f8f4f4;
+    height: calc(100vh - var(--topPanelHeight));
+}

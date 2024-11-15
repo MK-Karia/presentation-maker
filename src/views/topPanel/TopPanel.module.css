@@ -1,0 +1,23 @@
+.topPanel {
+    height: 130px;
+    background-color: #dddada;
+    border-bottom: 1px solid #4e4e4e;
+}
+
+.title {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: #1d1d1d;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input:focus {
+    outline: none; /* Убираем обводку при получении фокуса */
+}
+
+.toolPanel {
+    margin: 0 20px;
+}
